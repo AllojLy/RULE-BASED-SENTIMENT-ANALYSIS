@@ -1,0 +1,46 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    display: flex; /* Added for better centering */
+    flex-direction: column; /* Added for better centering */
+    align-items: center; /* Added for better centering */
+    min-height: 100vh; /* Added to ensure the body takes up the full viewport height */
+}
+
+.container-lg {
+    margin-top: 50px; /* Increased for more space */
+}
+
+h1 {
+    margin-bottom: 30px; 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#inp {
+    width: 350px;
+    padding: 12px; /* Slightly increased for better visual */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap's default primary button color */
+    border-color: #007bff;     /* Bootstrap's default primary button color */
+    padding: 10px 20px;       /* Adjust to your preference */
+    border-radius: 5px;
+}
+
+.output {
+    margin-top: 30px; /* Increased for more space */
+    font-size: 24px;
+    font-weight: bold;
+}
